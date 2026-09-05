@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    width:  100%;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+/* topography */
+
+
+h2{
+    font-size: 13px
+}
+
+p{
+    font-size: 12px;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+.small-text{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* layout */
+
+
+
+
+
+.header-container{
+    width: 300px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.full-container{
+    width: 100px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.avatar-container {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 35px
+}
+
+.user-info{
+    width: 300px;
+}
+
+.profile-info{
+    width: 200px;
+    padding: 1px 5px;
+    display: flex;
+    justify-content: start;
+    gap: 10px
+}
+
+
+.profile-text{
+    margin-top: 10px;
+}
+
+
+
+.profile-text h2, p{
+    display: block;
+    margin: 0;
+}
+
+.post-container{
+    width: 100%;
+    
+    
+}
+
+.post-img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-flex{
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    
+}
+
+.icon-img{
+    width: 20px;
+}
+
+.contain{
+    width: 100px;
+    
+    
+}
