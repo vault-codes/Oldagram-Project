@@ -1,19 +1,49 @@
+
+
 body{
     margin: 0;
+    box-sizing: border-box;
     width:  100%;
+  
+    max-height: 100vh;
     font-family: "Source Sans 3", sans-serif;
 }
 
+
+section{
+    border-bottom: 2px solid #C6C6C6;
+    margin-bottom: 20px;
+}
 /* topography */
 
 
 h2{
-    font-size: 13px
+    font-size: 13px;
+    
 }
 
 p{
     font-size: 12px;
+    
 }
+
+
+
+.float-bold-text{
+    margin-bottom: 0px;
+    margin-left:  50px;
+    margin-top: 10;
+
+}
+
+.float-small-text{
+    margin-bottom: 10px;
+    margin-left:  50px;
+    margin-top: 0;
+
+}
+
+
 
 .bold-text{
     font-weight: 700;
@@ -26,87 +56,58 @@ p{
 
 /* layout */
 
-
-
-
-
-.header-container{
-    width: 300px;
-    margin: 0;
+header{
+    padding: 15px 15px;
     display: flex;
     justify-content: space-between;
-    padding: 3px 5px;
-    box-sizing: border-box;
     border-bottom: 1px solid #C6C6C6;
 }
 
-.full-container{
+.logo-image{
     width: 100px;
+
 }
 
-.logo{
-    width: 100px;
-}
+.avatar-image{
+    width: 50px;
+    border-radius: 50%;
 
-.avatar-container {
-    margin-top: 10px;
-    display: inline-block;
-}
-
-.avatar{
-    border-radius: 100%;
-    width: 35px
-}
-
-.user-info{
-    width: 300px;
 }
 
 .profile-info{
-    width: 200px;
-    padding: 1px 5px;
-    display: flex;
-    justify-content: start;
-    gap: 10px
+    margin-top: 100px;
+    box-sizing: border-box;
+   
+    
+    
+
 }
 
-
-.profile-text{
-    margin-top: 10px;
+.avatar-profile{
+    float: left;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+    
+    
 }
 
-
-
-.profile-text h2, p{
-    display: block;
-    margin: 0;
-}
-
-.post-container{
+.post-image{
     width: 100%;
-    
-    
 }
 
-.post-img{
-    width: 100%;
-    margin: 0 auto;
-}
 
-.icon-flex{
-    margin: 0;
+.flex-icon{
     display: flex;
-    justify-content: start;
-    gap: 10px;
+    width: 150px;
+    margin: 5px 0;
+    padding: 3px 0;
+    justify-content: space-around;
     
 }
+
 
 .icon-img{
-    width: 20px;
+    width: 25px;
 }
 
-.contain{
-    width: 100px;
-    
-    
-}
